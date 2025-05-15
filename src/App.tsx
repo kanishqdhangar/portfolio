@@ -165,7 +165,7 @@ export default function Portfolio() {
               certificate: "/Certificate_Kanishq1.pdf",
             },
             {
-              title: "Intern at Indian Institute of Jammu",
+              title: "Intern at Indian Institute of Technology(IIT) Jammu",
               duration: "1 July 2024 – 16 August 2024",
               description:
                 "Developed a web application ‘InternHub’ designed for hiring interns, managing internships, and tracking applications. ",
