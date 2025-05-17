@@ -51,6 +51,14 @@ export default function Portfolio() {
               live: "",
             },
             {
+              title: "SoftSell",
+              description:
+                "A responsive, single-page marketing website for a fictional software resale startup. Built using Next, Tailwind CSS and Type Script.",
+              image: "/SoftSell.png",
+              github: "https://github.com/kanishqdhangar/softsell",
+              live: "https://softsell-alpha-amber.vercel.app/",
+            },
+            {
               title: "Internship Web Portal",
               description:
                 "A web app for managing internships, hiring interns, and tracking applications. Built with React, Django, and PostgreSQL.",
@@ -219,7 +227,7 @@ export default function Portfolio() {
             },
             {
               category: "Languages",
-              skills: ["Python", "Javascript", "C", "C++", "SQL"],
+              skills: ["Python", "TypeScript", "JavaScript", "C", "C++", "SQL"],
             },
             {
               category: "Tools & Platforms",
