@@ -53,7 +53,7 @@ export default function Portfolio() {
             {
               title: "Task Manager",
               description:
-                "A full-stack Task Management application that allows users to create, update, and delete tasks with a sleek and responsive UI. Built using Next.js for the frontend, Node.js and Express.js for the backend, and MongoDB Atlas for cloud-based data storage. The project is fully deployed with the frontend hosted on Vercel and the backend on Render.",
+                "A full-stack Task Manager app with a clean, responsive UI for creating, updating, and deleting tasks. Built with Next.js, Node.js, and MongoDB Atlas, and deployed on Vercel (frontend) and Render (backend).",
               image: "/TaskManager.png",
               github: "https://github.com/kanishqdhangar/task_manager-backend",
               live: "https://task-manager-beige-three.vercel.app/",
