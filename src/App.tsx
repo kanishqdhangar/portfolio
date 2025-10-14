@@ -142,7 +142,7 @@ export default function Portfolio() {
                 <div>
                   <h3 className="text-lg font-bold mb-1">{project.title}</h3>
                   <p className="text-sm text-gray-700">{project.description}</p>
-                  <p className="text-sm text-gray-700"><b>TechStack:</b>{project.tech}</p>
+                  <p className="text-sm text-gray-900"><b>Tech Stack:</b>{project.tech}</p>
                 </div>
 
                 <div className="flex gap-4 mt-4 text-blue-600">
@@ -237,7 +237,7 @@ export default function Portfolio() {
             },
             {
               category: "Backend",
-              skills: ["Django", "Fast API", "Node.js", "REST APIs"],
+              skills: ["Django", "FastAPI", "Node.js", "REST APIs"],
             },
             {
               category: "Database",
@@ -249,7 +249,7 @@ export default function Portfolio() {
             },
             {
               category: "Tools & Platforms",
-              skills: ["Git", "GitHub", "Postman", "Vercel", "Vite"],
+              skills: ["Git", "GitHub", "Postman", "Mongo Atlas", "NeonDB", "Vercel", "Render", "Vite"],
             },
             {
               category: "Others",
