@@ -142,7 +142,7 @@ export default function Portfolio() {
                 <div>
                   <h3 className="text-lg font-bold mb-1">{project.title}</h3>
                   <p className="text-sm text-gray-700">{project.description}</p>
-                  <p className="text-sm text-gray-900"><b>Tech Stack:</b>{project.tech}</p>
+                  <p className="text-sm text-black"><b>Tech Stack: </b> {project.tech}</p>
                 </div>
 
                 <div className="flex gap-4 mt-4 text-blue-600">
