@@ -44,16 +44,26 @@ export default function Portfolio() {
           {[
             {
               title: "Portfolio",
-              description:
-                "This very portfolio site you're viewing now. Built using Vite, React and Tailwind CSS to showcase my skills and projects.",
+              description: "This very portfolio site you're viewing now.",
+              tech: "Vite + React.js, Tailwind CSS",
               image: "/portfolio.png",
               github: "https://github.com/kanishqdhangar/portfolio",
               live: "",
             },
             {
+              title: "Stock Tracker",
+              description:
+                "A full-stack app where users can view, add and favourite their favourite stocks/assets with a clean responsive UI. Deployed on Vercel (frontend) and Render (backend).",
+              tech: "Next.js, TypeScript, Tailwind CSS, FastAPI, NeonDB(Serverless Cloud-Native Postgres)",
+              image: "/StockTracker.png",
+              github: "https://github.com/kanishqdhangar/StockTracker",
+              live: "https://stock-crud.vercel.app/",
+            },
+            {
               title: "Task Manager",
               description:
-                "A full-stack Task Manager app with a clean, responsive UI for creating, updating, and deleting tasks. Built with Next.js, Node.js, and MongoDB Atlas, and deployed on Vercel (frontend) and Render (backend).",
+                "A full-stack Task Manager app with a clean, responsive UI for creating, updating, and deleting tasks. Deployed on Vercel (frontend) and Render (backend).",
+              tech: "Next.js, TypeScript, TailwindCSS, Node.js, MongoDB Atlas",
               image: "/TaskManager.png",
               github: "https://github.com/kanishqdhangar/task_manager-backend",
               live: "https://task-manager-beige-three.vercel.app/",
@@ -61,7 +71,8 @@ export default function Portfolio() {
             {
               title: "SoftSell",
               description:
-                "A responsive, single-page marketing website for a fictional software resale startup. Built using Next, Tailwind CSS and Type Script.",
+                "A responsive, single-page marketing website for a fictional software resale startup.",
+              tech: "Next.js, TypeScript, TailwindCSS",
               image: "/SoftSell.png",
               github: "https://github.com/kanishqdhangar/softsell",
               live: "https://softsell-alpha-amber.vercel.app/",
@@ -69,7 +80,8 @@ export default function Portfolio() {
             {
               title: "Internship Web Portal",
               description:
-                "A web app for managing internships, hiring interns, and tracking applications. Built with React, Django, and PostgreSQL.",
+                "A web app for managing internships, hiring interns, and tracking applications.",
+              tech:"React.js, Django, PostgreSQL",
               image: "/internshipPortal.png",
               github: "https://github.com/kanishqdhangar/Internship-Web-Portal",
               live: "",
@@ -78,6 +90,7 @@ export default function Portfolio() {
               title: "GreenMinds",
               description:
                 "A frontend UI design of an award-winning hackathon idea.",
+              tech: "React.js",
               image: "/greenminds.png",
               github: "https://github.com/kanishqdhangar/greenminds",
               live: "https://greenminds-vrzc.vercel.app/",
@@ -86,6 +99,7 @@ export default function Portfolio() {
               title: "News App",
               description:
                 "A dynamic site fetching news via a public Inshorts API and displaying based on user-selected categories.",
+              tech: "React.js",
               image: "/news.png",
               github: "https://github.com/kanishqdhangar/News-App",
               live: "https://news-app-drab-six.vercel.app/",
@@ -94,6 +108,7 @@ export default function Portfolio() {
               title: "Alumni Connect",
               description:
                 "A full-stack project for connecting alumni with current students. Includes news and mentorship features.",
+              tech: "React.js",
               image: "/alumni_connect.png",
               github: "https://github.com/kanishqdhangar/alumni_connect",
               live: "https://alumni-connect-app.vercel.app/",
@@ -101,19 +116,13 @@ export default function Portfolio() {
             {
               title: "Doctor Listing",
               description:
-                "Built with Next.js and MongoDB, this app filters doctors by category, fees, and other fields.",
+                "This app filters doctors by category, fees, and other fields.",
+              tech:"Next.js, TypeScript, TailwindCSS, MongoDB",
               image: "/doctors-listing.png",
               github: "https://github.com/kanishqdhangar/Doctor_listing_frontend",
               live: "",
             },
-            {
-              title: "Calculator",
-              description:
-                "A responsive calculator built using HTML, CSS, and JavaScript. Handles basic arithmetic operations.",
-              image: "/calculator.png",
-              github: "https://github.com/kanishqdhangar/calculator",
-              live: "",
-            },
+            
           ].map((project, index) => (
             <div
               key={index}
@@ -133,6 +142,7 @@ export default function Portfolio() {
                 <div>
                   <h3 className="text-lg font-bold mb-1">{project.title}</h3>
                   <p className="text-sm text-gray-700">{project.description}</p>
+                  <p className="text-sm text-gray-700"><b>TechStack:</b>{project.tech}</p>
                 </div>
 
                 <div className="flex gap-4 mt-4 text-blue-600">
@@ -227,7 +237,7 @@ export default function Portfolio() {
             },
             {
               category: "Backend",
-              skills: ["Django", "Node.js", "REST APIs"],
+              skills: ["Django", "Fast API", "Node.js", "REST APIs"],
             },
             {
               category: "Database",
