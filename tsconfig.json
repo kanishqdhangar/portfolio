@@ -1,4 +1,14 @@
+// tsconfig.json (Root File)
 {
+  "compilerOptions": {
+    // 1. Alias Definition: This resolves the '@/' path for the shadcn CLI and other tools.
+    "baseUrl": ".", 
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  
+  // 2. File references: This tells TypeScript where to find the main app and node configs.
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
