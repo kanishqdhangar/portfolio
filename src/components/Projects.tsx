@@ -12,6 +12,15 @@ const projects = [
     live: "",
   },
   {
+    title: "Get Hired",
+    description:
+      "GetHired is an AI-powered recruitment platform designed to connect students with the most relevant internship opportunities. By utilizing a FastAPI backend and a Next.js frontend, the application provides a high-performance, real-time recommendation system based on a student’s unique skill profile and career goals.",
+    tech: "Next.js, TypeScript, Tailwind CSS, FastAPI, PostgreSQL",
+    image: "/GetHired.png",
+    github: "https://github.com/kanishqdhangar/GetHired",
+    live: "",
+  },
+  {
     title: "Stock Tracker",
     description:
       "A full-stack app where users can view, add and favourite their favourite stocks/assets with a clean responsive UI.",
