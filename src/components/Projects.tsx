@@ -15,10 +15,19 @@ const projects = [
     title: "Get Hired",
     description:
       "An AI-driven recruitment engine built with Next.js and FastAPI that matches students to internships in real-time. It transforms static profiles into dynamic career opportunities through precise, skill-based AI recommendations.",
-    tech: "Next.js, TypeScript, Tailwind CSS, FastAPI, PostgreSQL",
+    tech: "Next.js, TypeScript, Tailwind CSS, FastAPI, PostgreSQL, JWT Authentication",
     image: "/GetHired.png",
     github: "https://github.com/kanishqdhangar/GetHired",
     live: "",
+  },
+  {
+    title: "Blog Website",
+    description:
+      "Built a MERN blogging platform with TypeScript, implementing features like JWT auth, social interactions(likes, comments, bookmarks), and a custom built navigation system. Deployed via Vercel and Render",
+    tech: "MERN, TypeScript, Tailwind CSS, JWT Authentication,",
+    image: "/Blog.png",
+    github: "https://github.com/kanishqdhangar/Blog-editor",
+    live: "https://blog-editor-phi.vercel.app/",
   },
   {
     title: "Stock Tracker",
