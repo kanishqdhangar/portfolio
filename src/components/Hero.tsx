@@ -3,7 +3,7 @@ import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState('');
-  const roles = ['Full Stack Developer', 'Software Engineer', 'Frontend Developer', 'Python Developer'];
+  const roles = ['Full Stack Developer', 'Software Engineer', 'Frontend Developer', 'Python Developer', "MERN Stack Developer"];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
 
