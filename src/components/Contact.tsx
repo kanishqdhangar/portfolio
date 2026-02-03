@@ -136,7 +136,7 @@ const Contact = () => {
                     asChild
                   >
                     <a href="https://drive.google.com/file/d/1qPtQw2XlggZx1E1FJh3_CxrGx8A-Mt2d/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="text-white">
-                      Download Resume
+                      View Resume
                     </a>
                   </Button>
                   <Button
