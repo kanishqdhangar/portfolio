@@ -4,18 +4,18 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
-    title: "Portfolio",
-    description: "This very portfolio site you're viewing now.",
-    tech: "Vite + React.js, Tailwind CSS",
-    image: "/image.png",
-    github: "https://github.com/kanishqdhangar/portfolio",
-    live: "",
+    title: "VoteFlow",
+    description: "Built a real-time polling platform using MERN, TypeScript, and Socket.IO, enabling live vote updates, race-condition-safe voting at the database level, and teacher-controlled poll lifecycles. Deployed via Vercel and Render.",
+    tech: "MERN, TypeScript, Tailwind CSS, Socket.IO",
+    image: "/VoteFlow.png",
+    github: "https://github.com/kanishqdhangar/VoteFlow",
+    live: "https://polling-system-indol.vercel.app/",
   },
   {
     title: "Get Hired",
     description:
       "An AI-driven recruitment engine built with Next.js and FastAPI that matches students to internships in real-time. It transforms static profiles into dynamic career opportunities through precise, skill-based AI recommendations.",
-    tech: "Next.js, TypeScript, Tailwind CSS, FastAPI, PostgreSQL, JWT Authentication",
+    tech: "Next.js, TypeScript, Tailwind CSS, FastAPI, PostgreSQL, JWT",
     image: "/GetHired.png",
     github: "https://github.com/kanishqdhangar/GetHired",
     live: "",
