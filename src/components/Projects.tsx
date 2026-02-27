@@ -7,7 +7,7 @@ const projects = [
     title: "Resume Parser Microservice",
     description:
       "An AI-powered microservice that extracts structured data from PDF resumes with OCR support and Dockerized deployment.",
-    tech: "FastAPI, Tesseract OCR, Gemini, PyMuPDF (fitz), pdfplumber",
+    tech: "FastAPI, Tesseract OCR, Gemini, PyMuPDF, pdfplumber",
     image: "/resume-parser.webp",
     github: "https://github.com/kanishqdhangar/resume-parser",
     live: "https://resume-parser-sgtj.onrender.com/docs",
