@@ -10,7 +10,7 @@ const projects = [
     tech: "FastAPI, Tesseract, Gemini",
     image: "/resume-parser.webp",
     github: "https://github.com/kanishqdhangar/resume-parser",
-    live: "https://resume-parser-sgtj.onrender.com/api/resume/parse",
+    live: "https://resume-parser-sgtj.onrender.com/docs",
   },
   {
     title: "Internship Portal",
