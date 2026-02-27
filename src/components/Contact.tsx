@@ -135,7 +135,7 @@ const Contact = () => {
                     className="border-gray-950 bg-gray-900 text-white hover:bg-gray-700"
                     asChild
                   >
-                    <a href="https://drive.google.com/file/d/16UPOboRBpvbTk_YNUBDOVWwCYxw1Xmfw/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-white">
+                    <a href="https://drive.google.com/file/d/1tcC5zRNTbRYPD0DwIJn3vFaA914WK1XX/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-white">
                       View Resume
                     </a>
                   </Button>
