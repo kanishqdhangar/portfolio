@@ -1,4 +1,4 @@
-import { Code, Database, Brain, TrendingUp, Award, MapPin, GraduationCap, Building, ExternalLink, Target } from 'lucide-react';
+import { Code, Database, Brain, TrendingUp, Award, MapPin, GraduationCap, Building, ExternalLink, Target, ToolCase } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -21,20 +21,26 @@ const skills = [
     category: 'Backend',
     icon: Database,
     color: 'from-orange-500 to-red-600',
-    items: ['Django', 'FastAPI', 'NodeJS', 'Rest APIs']
+    items: ['Django', 'FastAPI', 'NodeJS', 'Express', 'Rest APIs', 'Webhooks', 'JWT Authentication']
   },
   {
-    category: 'Databases & Tools',
+    category: 'Databases',
     icon: Brain,
     color: 'from-cyan-500 to-blue-600',
-    items: ['MongoDB', 'PostgreSQL', 'Vite', 'Postman', 'GitHub', 'Vercel', 'Render']
+    items: ['MongoDB', 'PostgreSQL', 'SQL']
   },
   {
     category: 'Machine Learning',
     icon: Database ,
     color: 'from-cyan-500 to-blue-600',
-    items: ['Numpy', 'Pandas', 'Scikit-learn' ]
-  }
+    items: ['Numpy', 'Pandas', 'Scikit-learn', 'LLM Integration', 'Prompt Engineering']
+  },
+  {
+    category: 'Tools & Platform',
+    icon: ToolCase,
+    color: 'from-purple-400 to-purple-600',
+    items: ['Vite', 'Postman', 'Git', 'Vercel', 'Render', 'Razorpay Payment Gateway']
+  },
 ];
 
 const achievements = [
