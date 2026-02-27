@@ -4,6 +4,24 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
+    title: "Resume Parser Microservice",
+    description:
+      "An AI-powered microservice that extracts structured data from PDF resumes with OCR support and Dockerized deployment.",
+    tech: "FastAPI, Tesseract, Gemini",
+    image: "/resume-parser.webp",
+    github: "https://github.com/kanishqdhangar/resume-parser",
+    live: "https://resume-parser-sgtj.onrender.com/api/resume/parse",
+  },
+  {
+    title: "Internship Portal",
+    description:
+      "A production-ready internship management platform with secure authentication, role-based access control, and automated email notifications.",
+    tech: "React.js, Django, PostgreSQL, JWT Authentication",
+    image: "/internship-portal.png",
+    github: "https://github.com/kanishqdhangar/internship-portal",
+    live: "https://internship-portal-woad.vercel.app/",
+  },
+  {
     title: "VoteFlow",
     description: "Built a real-time polling platform using MERN, TypeScript, and Socket.IO, enabling live vote updates, race-condition-safe voting at the database level, and teacher-controlled poll lifecycles. Deployed via Vercel and Render.",
     tech: "MERN, TypeScript, Tailwind CSS, Socket.IO",
@@ -55,15 +73,6 @@ const projects = [
     image: "/SoftSell.png",
     github: "https://github.com/kanishqdhangar/softsell",
     live: "https://softsell-alpha-amber.vercel.app/",
-  },
-  {
-    title: "Internship Web Portal",
-    description:
-      "A web app for managing internships, hiring interns, and tracking applications.",
-    tech: "React.js, Django, PostgreSQL",
-    image: "/internshipPortal.png",
-    github: "https://github.com/kanishqdhangar/Internship-Web-Portal",
-    live: "",
   },
   {
     title: "GreenMinds",
