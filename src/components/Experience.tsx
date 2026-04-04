@@ -14,12 +14,47 @@ const Experience = () => {
   const experiences = [
     {
       title: "Software Developer Intern",
+      company: "Raw Recruit",
+      period: "January 2026 – Present",
+      location: "Remote",
+      type: "Full Stack Development",
+      description:
+        "Building production-grade web applications and scalable backend systems, focusing on performance optimization and real-world deployment.",
+      achievements: [
+        "Developed a production-ready MERN e-commerce platform with JWT authentication, Razorpay payments, order tracking, and admin dashboard.",
+        "Designed scalable backend APIs and optimized database queries for high-traffic handling.",
+        "Implemented Redis caching, reducing API response latency by 80–90%.",
+        <>
+          Delivered a real estate web platform{" "}
+          <a
+            href="https://nirvayadevbhoomi.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:text-blue-300 underline inline-flex items-center gap-1"
+          >
+            Nirvaya Devbhoomi
+          </a>{" "}
+          with modern UI and scalable architecture using TypeScript.
+        </>
+      ],
+      technologies: [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node.js",
+        "TypeScript",
+        "Redis",
+        "Razorpay"
+      ],
+    },
+    {
+      title: "Software Developer Intern",
       company: "Indian Institute of Technology (IIT), Jammu",
       period: "July 2024 – August 2024",
-      location: "Jammu, India",
+      location: "MNIT, Jaipur",
       type: "Software Development",
       description:
-        "Developed a web application ‘InternHub’ designed for hiring interns, managing internships, and tracking applications.",
+        "Built an internship management platform enabling hiring workflows, application tracking, and recruiter-student interaction.",
       achievements: [
         "Developed core features for an intern hiring portal InternHub using React and Django.",
         "Integrated RESTful APIs and optimized database queries using PostgreSQL. ",
@@ -39,7 +74,7 @@ const Experience = () => {
       location: "Delhi, India",
       type: "Software Development",
       description:
-        "Developed a web application ‘BioSoft Lookup’ which assists researchers in finding softwares for their needs under the guidance of Dr.  Asani Bhaduri using React, Django and PostgreSQL.",
+        "Engineered a research software discovery platform enabling efficient search and filtering for academic use cases.",
       achievements: [
         "Built a scalable React frontend and integrated Django REST APIs for seamless backend communication.",
         "Designed optimized PostgeSQL models and implemented advanced search & filtering for faster data retrieval.",

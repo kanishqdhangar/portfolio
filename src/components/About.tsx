@@ -1,4 +1,4 @@
-import { Code, Database, Brain, TrendingUp, Award, MapPin, GraduationCap, Building, ExternalLink, Target, ToolCase } from 'lucide-react';
+import { Code, Database, Settings , Brain, TrendingUp, Award, MapPin, GraduationCap, Building, ExternalLink, Target, ToolCase } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -30,8 +30,14 @@ const skills = [
     items: ['MongoDB', 'PostgreSQL', 'SQL']
   },
   {
+    category: 'System Design',
+    icon: Settings,
+    color: 'from-green-500 to-emerald-600',
+    items: ['Redis Caching', 'Async Processing', 'Queue Systems', 'Scalable APIs']
+  },
+  {
     category: 'Machine Learning',
-    icon: Database ,
+    icon: Brain,
     color: 'from-cyan-500 to-blue-600',
     items: ['Numpy', 'Pandas', 'Scikit-learn', 'LLM Integration', 'Prompt Engineering']
   },
@@ -63,7 +69,7 @@ const achievements = [
   {
     logo: "/cuh_logo.png",
     title: 'National Science Day',
-    description: 'Developed and deployed an application that secured a top position in the National Science Day\'s Working Model Category, demonstrating strong end-to-end development capabilities.',
+    description: 'Built and deployed a full-stack application in the National Science Day\'s Working Model Category, demonstrating strong end-to-end development capabilities.',
     year: '2024',
     category: 'Innovation',
     certificateLink: 'https://drive.google.com/file/d/1W82I-43e-wAxqbN2Yk3O7iPZIQsfDfEJ/view?usp=sharing'
@@ -84,7 +90,7 @@ const backgroundInfo = [
     label: 'Education',
     value: 'B.Tech Computer Science & Technology',
     subtitle: 'Central University of Haryana',
-    details: 'Nov 2022 - Dec 2025',
+    details: 'Nov 2022 - June 2026 (Expected)',
     link: '#'
   },
   {
@@ -99,8 +105,8 @@ const backgroundInfo = [
     icon: Building,
     label: 'Internships',
     value: 'Software Developer Intern',
-    subtitle: 'IIT Jammu & University of Delhi',
-    details: 'Worked on API integration, frontend development, and performance optimization',
+    subtitle: 'RawRecruit, IIT Jammu & University of Delhi',
+    details: 'Built scalable APIs, optimized database queries, and improved performance for real-world applications',
     link: null
   },
   
@@ -137,11 +143,15 @@ const AboutHeader = () => (
     </h2>
     <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 mx-auto mb-8"></div>
     <p className="text-lg sm:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-      Hello! I’m <span className="font-semibold text-white">Kanishq Dhangar</span>, a passionate Full Stack Developer with hands-on experience in building
-      scalable web applications and APIs. I’ve contributed to real-time projects during my internships at IIT Jammu and the University of Delhi, focusing on
-      backend optimization, API integration, and interactive user interfaces. I enjoy working across the full stack — from designing clean React frontends to
-      building robust Django and FastAPI backends — and I’m currently exploring how machine learning can be integrated into full-stack systems for intelligent
-      web solutions.
+      I’m <span className="font-semibold text-white">Kanishq Dhangar</span>, a Full Stack Developer focused on building 
+      <span className="font-semibold text-white"> scalable, high-performance systems</span> and real-world products.  
+
+      I’ve engineered backend systems with <span className="font-semibold text-white">Redis caching (80–90% latency reduction)</span>, 
+      designed <span className="font-semibold text-white">asynchronous processing pipelines</span>, and built 
+      <span className="font-semibold text-white">AI-powered applications</span> using modern LLMs.  
+
+      My work spans across <span className="font-semibold text-white">MERN, FastAPI, and Django ecosystems</span>, 
+      where I focus on performance, scalability, and clean system design.
     </p>
   </div>
 );
@@ -174,7 +184,7 @@ const About = () => {
                     <p className="text-base sm:text-lg font-semibold text-white mb-1 break-words">{info.value}</p>
                     <p className="text-sm text-gray-400 mb-2">{info.subtitle}</p>
                     <p className="text-xs text-gray-500">{info.details}</p>
-                    {info.link && (
+                    {/* {info.link && (
                       <a
                         href={info.link}
                         target="_blank"
@@ -183,7 +193,7 @@ const About = () => {
                       >
                         View Details <ExternalLink size={12} className="ml-1" />
                       </a>
-                    )}
+                    )} */}
                   </div>
                 </CardContent>
               </Card>

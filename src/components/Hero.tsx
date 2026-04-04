@@ -3,7 +3,11 @@ import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState('');
-  const roles = ['Full Stack Developer', 'MERN Stack Developer', 'Software Engineer', 'Frontend Developer', 'Python Developer'];
+  const roles = ["scalable backend systems",
+                  "high-performance web applications",
+                  "real-time systems with Socket.IO",
+                  "AI-powered products using LLMs"
+                ];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
 
@@ -59,36 +63,39 @@ const Hero = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             
             {/* Left Content */}
-            <div className="space-y-6 lg:space-y-8 order-2 lg:order-1 ml-6 sm:ml-10 lg:ml-18 mt-24 sm:mt-26 lg:mt-32">
+            <div className="space-y-6 lg:space-y-8 order-1 lg:order-1 ml-6 sm:ml-10 lg:ml-18 mt-24 sm:mt-26 lg:mt-32">
               
               {/* Name + Title */}
               <div className="space-y-2 lg:space-y-4">
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
                   <span className="text-white">Kanishq Dhangar</span>
                 </h1>
-                <h2 className="text-xl sm:text-2xl lg:text-3xl text-gray-400 font-light">
-                  Full Stack Developer
-                </h2>
+                <h3 className="text-xl sm:text-xl lg:text-2xl text-gray-400 font-light">
+                  Full Stack Developer • Scalable Systems • AI Integration
+                </h3>
               </div>
 
               {/* Animated Role */}
-              <div className="text-lg sm:text-xl lg:text-2xl h-8 flex items-center">
-                <span className="text-gray-400">I'm a </span>
+              <div className="text-lg sm:text-xl lg:text-2xl h-8 w-2xl flex items-center">
+                <span className="text-gray-400">I engineer </span>
                 <span className="text-white ml-2 font-medium">
                   {displayText}
                   <span className="animate-pulse text-blue-400">|</span>
                 </span>
               </div>
 
+              <p className="text-sm sm:text-base text-blue-400 font-medium tracking-wide">
+                Designing systems that scale and perform in real-world environments
+              </p>
+
               {/* Description */}
               <div className="space-y-4 max-w-xl">
                 <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
-                  Hello! My name is <span className="font-semibold text-white">Kanishq Dhangar</span> and I am a Full Stack Developer passionate about building modern, scalable web apps.
+                  Full Stack Developer specializing in building <span className="font-semibold text-white">scalable, production-grade applications</span> with a strong focus on performance and system design.
                 </p>
 
                 <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
-                  I have completed internships at <span className="font-semibold text-white">IIT Jammu</span> and the <span className="font-semibold text-white">University of Delhi</span>, 
-                  contributing to real-time web products, API development, and database optimization.
+                  I have engineered systems with <span className="font-semibold text-white">Redis caching (reducing latency by 80–90%)</span>, designed <span className="font-semibold text-white">async processing pipelines</span>, and built <span className="font-semibold text-white">AI-driven solutions</span> using modern LLMs.
                 </p>
               </div>
 
@@ -125,7 +132,39 @@ const Hero = () => {
               </div>
             </div>
 
-            
+            {/* RIGHT SIDE - CODE SNIPPET CARD */}
+            <div className="hidden order-2 lg:flex items-center justify-center">
+              <div className="bg-[#0d1117] border border-gray-800 rounded-2xl p-6 w-[420px] shadow-2xl hover:scale-[1.02] transition-all duration-300">
+                
+                {/* Header */}
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-xs text-gray-400">resume-parser.ts</span>
+                  <div className="flex space-x-2">
+                    <div className="w-3 h-3 bg-red-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+                  </div>
+                </div>
+
+                {/* Code */}
+                <pre className="text-sm text-gray-300 font-mono leading-relaxed">
+  {`POST /api/resume/parse
+
+  → Upload PDF
+  → Extract text (OCR)
+  → Queue job (Redis)
+  → Worker processes request
+  → AI extracts structured data
+  → Return JSON response
+
+  //  Optimized pipeline
+  //  Handles concurrent requests
+  //  80–90% latency reduction (cache)
+  `}
+                </pre>
+              </div>
+            </div>
+
           </div>
 
           {/* Scroll Indicator */}
