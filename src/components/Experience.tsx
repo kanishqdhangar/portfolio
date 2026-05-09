@@ -15,26 +15,42 @@ const Experience = () => {
     {
       title: "Software Developer Intern",
       company: "Raw Recruit",
-      period: "January 2026 – Present",
+      period: "December 2025 – Present",
       location: "Remote",
       type: "Full Stack Development",
       description:
         "Building production-grade web applications and scalable backend systems, focusing on performance optimization and real-world deployment.",
       achievements: [
         "Developed a production-ready MERN e-commerce platform with JWT authentication, Razorpay payments, order tracking, and admin dashboard.",
-        "Designed scalable backend APIs and optimized database queries for high-traffic handling.",
-        "Implemented Redis caching, reducing API response latency by 80–90%.",
         <>
-          Delivered a real estate web platform{" "}
-          <a
-            href="https://nirvayadevbhoomi.in/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-400 hover:text-blue-300 underline inline-flex items-center gap-1"
-          >
-            Nirvaya Devbhoomi
-          </a>{" "}
-          with modern UI and scalable architecture using TypeScript.
+          <span>
+            Delivered a real estate web platform{" "}
+            <a
+              href="https://nirvayadevbhoomi.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-blue-300 underline"
+            >
+              Nirvaya Devbhoomi
+            </a>{" "}
+            with modern UI and scalable architecture using TypeScript.
+          </span>
+        </>,
+        "Designed scalable backend APIs and implemented Redis caching for high-traffic APIs, optimizing database queries and reducing response latency by ~80–90% under high-traffic conditions.",
+        <>
+          <span>
+            Implemented on-page SEO optimizations for{" "}
+            <a
+              href="http://rawrecruit.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-blue-300 underline"
+            >
+              RawRecruit
+            </a>{" "}
+            including meta tags, structured data, and sitemap generation,
+            improving organic search visibility and page indexing.
+          </span>
         </>
       ],
       technologies: [
