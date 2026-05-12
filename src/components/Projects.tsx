@@ -15,8 +15,8 @@ const projects = [
   {
     title: "Resume Parser Microservice",
     description:
-  "Designed an AI-powered resume parsing microservice with a multi-stage pipeline (OCR → text extraction → LLM processing) using FastAPI and Gemini. Implemented asynchronous job processing with Redis queues and worker processes to handle concurrent requests, ensuring fault-tolerant execution and high scalability.",
-    tech: ["FastAPI", "Redis", "Tesseract OCR", "Gemini", "PyMuPDF", "pdfplumber"],
+  "Architected an AI-powered resume parsing microservice with a multi-stage pipeline (OCR → text extraction → LLM processing) using FastAPI and Gemini 2.5 Flash. Implemented async job processing with Celery and Redis queues, containerized with Docker Compose for multi-service orchestration and fault-tolerant execution.",
+    tech: ["FastAPI", "Redis", "Tesseract OCR", "Gemini", "PyMuPDF", "pdfplumber", "Celery", "Docker Compose"],
     image: "/resume-parser.webp",
     github: "https://github.com/kanishqdhangar/resume-parser",
     live: "https://resume-parser-sgtj.onrender.com/docs",
