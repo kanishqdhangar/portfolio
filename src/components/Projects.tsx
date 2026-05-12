@@ -4,6 +4,15 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
+    title: "3D Model Viewer",
+    description:
+      "Full-stack 3D model viewer deployed on AWS — React on S3 + CloudFront, Express on EC2 with PM2, and private GLB storage via pre-signed S3 URLs. Features two-token JWT auth with silent refresh and frontend optimizations including code splitting and memoized renders.",
+    tech: ["React", "Three.js", "Node.js", "Express", "MongoDB", "AWS EC2", "AWS S3", "CloudFront", "JWT"],
+    image: "/threejs.png",
+    github: "https://github.com/kanishqdhangar/threejs",
+    live: "https://d2ifgyv3igqk5l.cloudfront.net",
+  },
+  {
     title: "Resume Parser Microservice",
     description:
   "Designed an AI-powered resume parsing microservice with a multi-stage pipeline (OCR → text extraction → LLM processing) using FastAPI and Gemini. Implemented asynchronous job processing with Redis queues and worker processes to handle concurrent requests, ensuring fault-tolerant execution and high scalability.",
@@ -13,15 +22,6 @@ const projects = [
     live: "https://resume-parser-sgtj.onrender.com/docs",
   },
   {
-    title: "Internship Portal",
-    description:
-    "Built a full-stack internship management platform with JWT authentication, role-based access control, and automated email workflows, enabling seamless interaction between recruiters and students.",
-    tech: ["React.js", "Django", "PostgreSQL", "JWT Authentication"],
-    image: "/internship-portal.png",
-    github: "https://github.com/kanishqdhangar/internship-portal",
-    live: "https://internship-portal-woad.vercel.app/",
-  },
-  {
     title: "VoteFlow",
     description:
     "Engineered a real-time polling system using MERN and Socket.IO, enabling live vote synchronization with race-condition-safe updates at the database level. Designed controlled poll lifecycles and ensured data consistency under concurrent voting scenarios.",
@@ -29,6 +29,15 @@ const projects = [
     image: "/VoteFlow.png",
     github: "https://github.com/kanishqdhangar/VoteFlow",
     live: "https://polling-system-indol.vercel.app/",
+  },
+  {
+    title: "Internship Portal",
+    description:
+    "Built a full-stack internship management platform with JWT authentication, role-based access control, and automated email workflows, enabling seamless interaction between recruiters and students.",
+    tech: ["React.js", "Django", "PostgreSQL", "JWT Authentication"],
+    image: "/internship-portal.png",
+    github: "https://github.com/kanishqdhangar/internship-portal",
+    live: "https://internship-portal-woad.vercel.app/",
   },
   {
     title: "Get Hired",
@@ -57,15 +66,15 @@ const projects = [
   //   github: "https://github.com/kanishqdhangar/StockTracker",
   //   live: "https://stock-crud.vercel.app/",
   // },
-  {
-    title: "Task Manager",
-    description:
-      "A full-stack Task Manager app for creating, updating, and deleting tasks with a clean, responsive UI.",
-    tech: ["Next.js", "TypeScript", "TailwindCSS", "Node.js", "MongoDB"],
-    image: "/TaskManager.png",
-    github: "https://github.com/kanishqdhangar/task_manager-backend",
-    live: "https://task-manager-beige-three.vercel.app/",
-  },
+  // {
+  //   title: "Task Manager",
+  //   description:
+  //     "A full-stack Task Manager app for creating, updating, and deleting tasks with a clean, responsive UI.",
+  //   tech: ["Next.js", "TypeScript", "TailwindCSS", "Node.js", "MongoDB"],
+  //   image: "/TaskManager.png",
+  //   github: "https://github.com/kanishqdhangar/task_manager-backend",
+  //   live: "https://task-manager-beige-three.vercel.app/",
+  // },
   // {
   //   title: "SoftSell",
   //   description:
@@ -122,7 +131,7 @@ export default function Projects() {
           <motion.div
             key={index}
             className={`bg-gray-900 rounded-2xl shadow-lg overflow-hidden border hover:border-gray-700 hover:shadow-xl transition-all
-                        ${index === 0 
+                        ${index === 0 || index === 1
                           ? "border-cyan-300 shadow-[0_0_35px_rgba(34,211,238,0.35)]" 
                           : "border-gray-800"}
                       `}
