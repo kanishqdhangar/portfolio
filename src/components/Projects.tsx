@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-
+// comment
 const projects = [
   {
     title: "3D Model Viewer",
