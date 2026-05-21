@@ -91,7 +91,7 @@ const Hero = () => {
               {/* Description */}
               <div className="space-y-4 max-w-xl">
                 <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
-                  Full Stack Developer specializing in building <span className="font-semibold text-white">scalable, production-grade applications</span> with a strong focus on performance and system design.
+                  Full Stack Developer with 1+ years of experience specializing in building <span className="font-semibold text-white">scalable, production-grade applications</span> with a strong focus on performance and system design.
                 </p>
 
                 <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
