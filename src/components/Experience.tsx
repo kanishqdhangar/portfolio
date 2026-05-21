@@ -14,7 +14,7 @@ const Experience = () => {
   const experiences = [
     {
       title: "Software Developer Intern",
-      company: "Raw Recruit",
+      company: "TalentConnect",
       period: "December 2025 – Present",
       location: "Remote",
       type: "Full Stack Development",
@@ -37,6 +37,7 @@ const Experience = () => {
           </span>
         </>,
         "Designed scalable backend APIs and implemented Redis caching for high-traffic APIs, optimizing database queries and reducing response latency by ~80–90% under high-traffic conditions.",
+        "Engineered a real-time candidate ranking system with automated midnight resets via background workers and dynamic rank updates on user activity, ensuring leaderboard accuracy at scale.",
         <>
           <span>
             Implemented on-page SEO optimizations for{" "}
