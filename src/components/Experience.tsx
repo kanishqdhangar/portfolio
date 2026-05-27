@@ -14,7 +14,7 @@ const Experience = () => {
   const experiences = [
     {
       title: "Software Developer Intern",
-      company: "TalentConnect",
+      company: "RawRecruit",
       period: "December 2025 – Present",
       location: "Remote",
       type: "Full Stack Development",

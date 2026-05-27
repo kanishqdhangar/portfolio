@@ -105,7 +105,7 @@ const backgroundInfo = [
     icon: Building,
     label: 'Internships',
     value: 'Software Developer Intern',
-    subtitle: 'TalentConnect, IIT Jammu & University of Delhi',
+    subtitle: 'RawRecruit, IIT Jammu & University of Delhi',
     details: 'Built scalable APIs, optimized database queries, and improved performance for real-world applications',
     link: null
   },
