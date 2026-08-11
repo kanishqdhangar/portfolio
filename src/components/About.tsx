@@ -62,7 +62,7 @@ const achievements = [
     logo: "/cuh_logo.png",
     title: 'Class Representative',
     description: 'Consistently coordinated batch activities and academic policy compliance throughout the entire academic period as Class Representative.',
-    year: '2022-25',
+    year: '2022-26',
     category: 'Leadership',
     certificateLink: '#'
   },
@@ -90,7 +90,7 @@ const backgroundInfo = [
     label: 'Education',
     value: 'B.Tech Computer Science & Technology',
     subtitle: 'Central University of Haryana',
-    details: 'Nov 2022 - June 2026 (Expected)',
+    details: 'Nov 2022 - June 2026',
     link: '#'
   },
   {

@@ -15,13 +15,13 @@ const Experience = () => {
     {
       title: "Software Developer Intern",
       company: "RawRecruit",
-      period: "December 2025 – Present",
+      period: "December 2025 – June 2026",
       location: "Remote",
       type: "Full Stack Development",
       description:
         "Building production-grade web applications and scalable backend systems, focusing on performance optimization and real-world deployment.",
       achievements: [
-        "Developed a production-ready MERN e-commerce platform with JWT authentication, Razorpay payments, order tracking, and admin dashboard.",
+        "Architected a self-learning entity normalization system with fuzzy matching — including canonical resolution, confidence-scored matching, and admin-reviewed alias learning — migrated all alumni/referral queries from regex to canonical matching.",
         <>
           <span>
             Delivered a real estate web platform{" "}
@@ -109,7 +109,7 @@ const Experience = () => {
   const education = {
     degree: "B.Tech, Computer Science & Engineering",
     institution: "Central University of Haryana, Mahendergarh",
-    period: "Nov 2022 – Dec 2025",
+    period: "Nov 2022 – June 2026",
     description:
       "Focused on data structures, algorithms, machine learning, and software engineering principles.",
   };
