@@ -36,10 +36,10 @@ const skills = [
     items: ['Redis Caching', 'Async Processing', 'Queue Systems', 'Scalable APIs']
   },
   {
-    category: 'Machine Learning',
+    category: 'AI & Agentic Systems',
     icon: Brain,
     color: 'from-cyan-500 to-blue-600',
-    items: ['Numpy', 'Pandas', 'Scikit-learn', 'LLM Integration', 'Prompt Engineering']
+    items: ['LLM Integration', 'Prompt Engineering', 'Gemini API', 'LangGraph', 'MCP', 'RAG']
   },
   {
     category: 'Tools & Platform',
@@ -147,8 +147,8 @@ const AboutHeader = () => (
       <span className="font-semibold text-white"> scalable, high-performance systems</span> and real-world products.  
 
       I’ve engineered backend systems with <span className="font-semibold text-white">Redis caching (80–90% latency reduction)</span>, 
-      designed <span className="font-semibold text-white">asynchronous processing pipelines</span>, and built 
-      <span className="font-semibold text-white">AI-powered applications</span> using modern LLMs.  
+      designed <span className="font-semibold text-white">asynchronous processing pipelines</span>, and I'm building  
+      <span className="font-semibold text-white"> agentic AI systems</span> using LangGraph and MCP.
 
       My work spans across <span className="font-semibold text-white">MERN, FastAPI, and Django ecosystems</span>, 
       where I focus on performance, scalability, and clean system design.

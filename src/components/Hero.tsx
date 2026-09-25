@@ -6,7 +6,7 @@ const Hero = () => {
   const roles = ["scalable backend systems",
                   "high-performance web applications",
                   "real-time systems with Socket.IO",
-                  "AI-powered products using LLMs"
+                  "agentic AI systems with LangGraph & MCP"
                 ];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
@@ -95,7 +95,7 @@ const Hero = () => {
                 </p>
 
                 <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
-                  I have engineered systems with <span className="font-semibold text-white">Redis caching (reducing latency by 80–90%)</span>, designed <span className="font-semibold text-white">async processing pipelines</span>, and built <span className="font-semibold text-white">AI-driven solutions</span> using modern LLMs.
+                  I have engineered systems with <span className="font-semibold text-white">Redis caching (reducing latency by 80–90%)</span>, designed <span className="font-semibold text-white">async processing pipelines</span>, and I'm building <span className="font-semibold text-white">agentic AI systems</span>  using LangGraph and MCP.
                 </p>
               </div>
 

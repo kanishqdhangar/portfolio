@@ -13,6 +13,15 @@ const projects = [
     live: "https://d2ifgyv3igqk5l.cloudfront.net",
   },
   {
+    title: "ShopAgent (In Progress)",
+    description:
+      "Building a stateful agentic commerce system in LangGraph, with a merchant catalog exposed via MCP tools. Implementing RAG-based product retrieval, comparison, and a deterministic budget guardrail enforced independently of LLM reasoning, integrated with Razorpay test-mode checkout and HMAC-verified webhooks.",
+    tech: ["Python", "LangGraph", "MCP", "PostgreSQL/pgvector", "Redis", "Razorpay", "Gemini"],
+    image: "/shopagent-v2.svg",
+    github: "https://github.com/kanishqdhangar/shopagent-mcp",
+    live: "",
+  },
+  {
     title: "Resume Parser Microservice",
     description:
   "Architected an AI-powered resume parsing microservice with a multi-stage pipeline (OCR → text extraction → LLM processing) using FastAPI and Gemini 2.5 Flash. Implemented async job processing with Celery and Redis queues, containerized with Docker Compose for multi-service orchestration and fault-tolerant execution.",
@@ -30,15 +39,15 @@ const projects = [
     github: "https://github.com/kanishqdhangar/VoteFlow",
     live: "https://polling-system-indol.vercel.app/",
   },
-  {
-    title: "Internship Portal",
-    description:
-    "Built a full-stack internship management platform with JWT authentication, role-based access control, and automated email workflows, enabling seamless interaction between recruiters and students.",
-    tech: ["React.js", "Django", "PostgreSQL", "JWT Authentication"],
-    image: "/internship-portal.png",
-    github: "https://github.com/kanishqdhangar/internship-portal",
-    live: "https://internship-portal-woad.vercel.app/",
-  },
+  // {
+  //   title: "Internship Portal",
+  //   description:
+  //   "Built a full-stack internship management platform with JWT authentication, role-based access control, and automated email workflows, enabling seamless interaction between recruiters and students.",
+  //   tech: ["React.js", "Django", "PostgreSQL", "JWT Authentication"],
+  //   image: "/internship-portal.png",
+  //   github: "https://github.com/kanishqdhangar/internship-portal",
+  //   live: "https://internship-portal-woad.vercel.app/",
+  // },
   {
     title: "Get Hired",
     description:
@@ -131,7 +140,7 @@ export default function Projects() {
           <motion.div
             key={index}
             className={`bg-gray-900 rounded-2xl shadow-lg overflow-hidden border hover:border-gray-700 hover:shadow-xl transition-all
-                        ${index === 0 || index === 1
+                        ${index === 0 || index === 1 || index === 2
                           ? "border-cyan-300 shadow-[0_0_35px_rgba(34,211,238,0.35)]" 
                           : "border-gray-800"}
                       `}
